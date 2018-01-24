@@ -1,6 +1,6 @@
 # PodiumScraping
 
-**TODO: Add description**
+[Solution to html5ever](https://github.com/Anonyfox/elixir-scrape/issues/34#issuecomment-356619741).
 
 ## Installation
 

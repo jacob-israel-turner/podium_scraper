@@ -22,7 +22,9 @@ defmodule PodiumScraping.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:scrape, "~>2.0"}
+      {:scrape, "~>2.0"},
+      {:gettext, "0.13.1"},
+      {:html5ever, "~> 0.5.0", [override: true, path: "~/code/podium_scraping/html5ever_elixir"]}
       # {:dep_from_hexpm, "~> 0.3.0"},
       # {:dep_from_git, git: "https://github.com/elixir-lang/my_dep.git", tag: "0.1.0"},
     ]
