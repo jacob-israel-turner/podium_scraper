@@ -1,0 +1,22 @@
+[package]
+name = "html5ever_nif"
+version = "0.1.0"
+authors = ["HansiHE <hansihe@hansihe.com>"]
+
+[lib]
+name = "html5ever_nif"
+path = "src/lib.rs"
+crate-type = ["dylib"]
+
+[dependencies]
+rustler = "^0.15.1"
+rustler_codegen = "^0.15.1"
+#rustler = { path = "../../../Rustler/" }
+#rustler_codegen = { path = "../../../Rustler/rustler_codegen/" }
+
+html5ever = "0.16"
+markup5ever = "0.1"
+
+tendril = "0.2"
+lazy_static = "0.2"
+scoped-pool = "1"
